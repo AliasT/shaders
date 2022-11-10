@@ -18,7 +18,7 @@ void main() {
     vec2 c = vec2(0.5);
     float n = circle(st, c);
     
-	float left = step(0., n);
+    float left = step(0., n);
     vec3 f = vec3(0.2, 0.3, 0.4);
     // color.rgb = mix( f * sin(u_time), color * n , 0.0);
     // color.t = 0.0;
